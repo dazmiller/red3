@@ -1,0 +1,339 @@
+<!DOCTYPE html><!-- This site was created in Webflow. http://www.webflow.com--><!-- Last Published: Thu Nov 26 2015 18:08:39 GMT+0000 (UTC) --><html data-wf-site="55b166a378d4b45545b92c1f" data-wf-page="55e4c5df8dcf83de3136e3b3">
+<!-- Mirrored from timekit.io/get-started by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Nov 2015 04:07:14 GMT -->
+<head><meta charset="utf-8"><title>Get Started - Timekit.io</title><meta name="description" content="Use Timekit to do the heavy lifting when building a marketplace for car sharing, a virtual assistant or productivity tool you can. Timekit is a modern API-first calendar platform built for developers, by developers."><meta name="viewport" content="width=device-width, initial-scale=1"><meta property="og:title" content="Timekit.io - The Availability &amp; Scheduling API"><meta property="og:description" content="Use Timekit to do the heavy lifting when building a marketplace for car sharing, a virtual assistant or productivity tool you can. Timekit is a modern API-first calendar platform built for developers, by developers."><meta property="og:image" content="../daks2k3a4ib2z.cloudfront.net/55b166a378d4b45545b92c1f/55ed2593d0f1a0d116bca525_bleu.png"><meta name="generator" content="Webflow"><link rel="stylesheet" type="text/css" href="../daks2k3a4ib2z.cloudfront.net/55b166a378d4b45545b92c1f/css/timekit2.webflow.2b10ab6eb.css"><script src="../ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script><script>WebFont.load({
+  google: {
+    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic","Inconsolata:400,400italic,700,700italic","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"]
+  }
+});</script><script type="text/javascript" src="../daks2k3a4ib2z.cloudfront.net/0globals/modernizr-2.7.1.js"></script><link rel="shortcut icon" type="image/x-icon" href="../daks2k3a4ib2z.cloudfront.net/55b166a378d4b45545b92c1f/55ed265e01c341d016a1aaa8_bleu%2032x32.png"><link rel="apple-touch-icon" href="../daks2k3a4ib2z.cloudfront.net/55b166a378d4b45545b92c1f/55ed26640c287afd6b99403a_bleu%20256x256.png"><style type="text/css">
+
+/* Cursor pointer style */
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Highlight.js Theme */
+.hljs-comment {
+  color: #999999;
+}
+
+.hljs-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-regexp,
+.ruby .hljs-constant,
+.xml .hljs-tag .hljs-title,
+.xml .hljs-pi,
+.xml .hljs-doctype,
+.html .hljs-doctype,
+.css .hljs-id,
+.css .hljs-class,
+.css .hljs-pseudo {
+  color: #f2777a;
+}
+
+.hljs-number,
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-built_in,
+.hljs-literal,
+.hljs-params,
+.hljs-constant {
+  color: #fc8181;
+}
+
+.ruby .hljs-class .hljs-title,
+.css .hljs-rule .hljs-attribute {
+  color: #ffcc66;
+}
+
+.hljs-string,
+.hljs-value,
+.hljs-inheritance,
+.hljs-header,
+.hljs-name,
+.ruby .hljs-symbol,
+.xml .hljs-cdata {
+  color: #52a4de;
+}
+
+.hljs-title,
+.css .hljs-hexcolor {
+  color: #66cccc;
+}
+
+.hljs-function,
+.python .hljs-decorator,
+.python .hljs-title,
+.ruby .hljs-function .hljs-title,
+.ruby .hljs-title .hljs-keyword,
+.perl .hljs-sub,
+.javascript .hljs-title,
+.coffeescript .hljs-title {
+  color: #6699cc;
+}
+
+.hljs-keyword,
+.javascript .hljs-function {
+  color: #FFF09A;
+}
+
+.onwhite .hljs-keyword {
+    color: #3EBD22;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  color: #EFEFEF;
+  -webkit-text-size-adjust: none;
+  white-space: pre-wrap;
+}
+
+.hljs.onwhite {
+    color: #444;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .hljs-cdata {
+  opacity: 0.5;
+}
+
+</style></head><body><div class="sidemenu"><div class="w-clearfix sidemenu_top"><img width="21" src="../daks2k3a4ib2z.cloudfront.net/55b166a378d4b45545b92c1f/55d4fdad3452375965433b89_cross-menu.png" data-ix="sidemenu-close" class="sidemenu_top_cross cursor-pointer"></div><a href="get-started.html" class="sidemenu_link">Get started</a><a href="features.html" class="sidemenu_link">Features</a><a href="solutions.html" class="sidemenu_link">Solutions</a><a href="pricing.html" class="sidemenu_link">Pricing</a><a href="about.html" class="sidemenu_link">About</a><a href="../developers.timekit.io/index.html" target="_blank" class="sidemenu_link">Docs</a></div><div class="w-section hero hero-short hero-darker"><div class="w-clearfix header"><a href="index.html" class="w-inline-block logo"><img width="39" src="../daks2k3a4ib2z.cloudfront.net/55b166a378d4b45545b92c1f/55cd94bc645c0443051ad186_timekit-logo-white.png"><div class="logo_name">TIMEKIT</div></a><div class="w-hidden-medium w-hidden-small w-hidden-tiny menu"><a href="features.html" class="menu_link">Features</a><a href="solutions.html" class="menu_link">SOLUTIONS</a><a href="pricing.html" class="menu_link">PRICING</a><a href="about.html" class="menu_link">ABOUT</a><a href="../developers.timekit.io/index.html" target="_blank" class="menu_link">DOCS</a></div><div class="header_cta"><div data-ix="sidemenu-open" class="w-hidden-main cursor-pointer header_cta_burger"><img width="22" src="../daks2k3a4ib2z.cloudfront.net/55b166a378d4b45545b92c1f/55d4f9743452375965433ad8_burger-menu.png" class="header_cta_burger_icon"></div><a href="get-started.html" class="w-hidden-tiny button button-linewhite">GET STARTED</a></div></div><h1 class="hero_title">Make Your First Call&nbsp;in 5 mins</h1><p class="hero_subtitle hero_subtitle-marginbottomextra">Free to use without limitations.&nbsp;Yes, really.<br>Get started right away!</p></div><div class="w-section section section-dark"><div data-ix="fade-in-on-pageload" class="w-container"><div class="envelope"><div class="envelope_gradient"></div><h3 class="envelope_title">Create an account</h3><div id="gsform-user" class="w-form envelope_form"><form id="gsform-user-form" name="email-form" data-name="Email Form" action="http://timekit.io/get-started"><input id="gsform-user-name" type="text" placeholder="Enter your name" name="name" data-name="Name" autofocus="autofocus" required="required" class="w-input form_input"><input id="gsform-user-email" type="email" placeholder="Enter your email address" name="email" data-name="Email" required="required" class="w-input form_input"><input id="gsform-user-password" type="password" placeholder="Enter your desired password" name="Password" data-name="Password" required="required" class="w-input form_input"><div class="form_button"><input type="submit" value="Create user" data-wait="Please wait..." class="w-button button button-blue"></div><p class="margintop">Already have a user?&nbsp;<a class="link" id="gsform-user-loginlink" href="#">Login here</a></p></form><div class="w-form-done form_success"><p class="form_success_text">Great, your user has been created!<br>Here's your e-mail &amp; API token:<br><span class="success_text_bold" id="gsform-name-result-email">E-MAIL</span><br><span class="success_text_bold" id="gsform-name-result-token">TOKEN</span></p></div><div class="w-form-fail form_error"><p id="gsform-user-error" class="form_error_text">Auch, something went wrong while submitting the form</p></div></div><div id="gsform-login" class="w-form envelope_form"><form id="gsform-login-form" name="email-form" data-name="Email Form" action="http://timekit.io/get-started"><input id="gsform-login-email" type="email" placeholder="E-mail" name="email" data-name="Email" required="required" class="w-input form_input"><input id="gsform-login-password" type="password" placeholder="Password" name="Password" data-name="Password" required="required" class="w-input form_input"><div class="form_button"><input type="submit" value="Login" data-wait="Please wait..." class="w-button button button-blue"></div><p class="margintop">Go back to&nbsp;<a id="gsform-login-createlink" class="link" href="#">create new user</a></p></form><div class="w-form-done form_success"><p class="form_success_text">Awesome, you've been logged in!<br>Here's your e-mail &amp; API token:<br><span class="success_text_bold" id="gsform-login-result-email">E-MAIL</span><br><span class="success_text_bold" id="gsform-login-result-token">TOKEN</span></p></div><div class="w-form-fail form_error"><p id="gsform-login-error" class="form_error_text">Auch, something went wrong, try again</p></div></div><div id="gsform-app" class="w-form envelope_form envelope_form-app"><form id="gsform-app-form" name="email-form" data-name="Email Form" action="http://timekit.io/get-started"><input id="gsform-app-name" type="text" placeholder="Enter your app name" name="App-name" data-name="App name" required="required" class="w-input form_input"><div class="form_button"><input type="submit" value="Register app" data-wait="Please wait..." class="w-button button button-blue"></div></form><div class="w-form-done form_success"><p class="form_success_text">Your app has been registered!<br>Remember your app name:&nbsp;<br><span class="success_text_bold" id="gsform-app-result-slug">NAME</span></p><p class="form_success_metatext">You're now ready to make API requests. Take a look at our API docs and check out our quickstart guide to get started building on top of Timekit.</p><a href="../developers.timekit.io/docs/guide-find-time-book-appointment.html" target="_blank" class="w-button button button-blue">Read guide</a></div><div class="w-form-fail form_error"><p id="gsform-app-error" class="form_error_text">Auch, something went wrong while submitting the form</p></div></div></div></div></div><div class="w-section section section-darker section-padded"><div class="w-container"><div class="w-row footer"><div class="w-col w-col-4 w-col-stack"><div class="w-row"><div class="w-col w-col-6 w-col-small-6"><div class="footer_pretext">Company</div><div class="footer_text"><strong>Timekit Inc.<br xmlns="http://www.w3.org/1999/xhtml"></strong>
+<a class="footer_link" target="_blank" href="https://goo.gl/maps/Ff71Y">1355 Market St,<br xmlns="http://www.w3.org/1999/xhtml">SF, CA 94103</a></div></div><div class="w-col w-col-6 w-col-small-6"><div class="footer_pretext">CONNECT</div><div class="footer_text"><a class="footer_link" href="tel:+14153167647">+1 (415) 316-7647<br></a>&nbsp;<br><a class="footer_link" target="_blank" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=friends@timekit.io&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;" href="mailto:yourfriends@timekit.io">yourfriends@timekit.io</a><br><a class="footer_link" target="_blank" href="https://twitter.com/TimekitHQ">@TimekitHQ</a></div></div></div></div><div class="w-col w-col-4 w-col-stack"><img width="65" src="../daks2k3a4ib2z.cloudfront.net/55b166a378d4b45545b92c1f/55cd94bc645c0443051ad186_timekit-logo-white.png" class="footer_logo"></div><div class="w-col w-col-4 w-col-stack"><div class="w-row"><div class="w-col w-col-6 w-col-small-6"><div class="footer_pretext">Product</div><div class="footer_text"><a class="footer_link" href="features.html">Features</a>
+<br><a class="footer_link" href="solutions.html">Solutions</a>
+<br><a class="footer_link" href="pricing.html">Pricing</a></div></div><div class="w-col w-col-6 w-col-small-6"><div class="footer_pretext">More</div><div class="footer_text"><a class="footer_link" href="get-started.html">Get started!</a>
+<br><a class="footer_link" target="_blank" href="../developers.timekit.io/index.html">Documentation&nbsp;<br></a><br><a class="footer_link" href="about.html">About us</a></div></div></div></div></div></div></div>
+<script type="text/javascript" src="../ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="../daks2k3a4ib2z.cloudfront.net/55b166a378d4b45545b92c1f/js/webflow.12fa077e0.js"></script>
+<!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]--><script src="../cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+<script type="text/javascript">
+
+// Timezones - jstz.min.js Version: 1.0.5 Build date: 2014-10-28
+!function(e){var a=function(){"use strict";var e="s",s={DAY:864e5,HOUR:36e5,MINUTE:6e4,SECOND:1e3,BASELINE_YEAR:2014,MAX_SCORE:864e6,AMBIGUITIES:{"America/Denver":["America/Mazatlan"],"America/Chicago":["America/Mexico_City"],"America/Santiago":["America/Asuncion","America/Campo_Grande"],"America/Montevideo":["America/Sao_Paulo"],"Asia/Beirut":["Asia/Amman","Asia/Jerusalem","Europe/Helsinki","Asia/Damascus","Africa/Cairo","Asia/Gaza","Europe/Minsk"],"Pacific/Auckland":["Pacific/Fiji"],"America/Los_Angeles":["America/Santa_Isabel"],"America/New_York":["America/Havana"],"America/Halifax":["America/Goose_Bay"],"America/Godthab":["America/Miquelon"],"Asia/Dubai":["Asia/Yerevan"],"Asia/Jakarta":["Asia/Krasnoyarsk"],"Asia/Shanghai":["Asia/Irkutsk","Australia/Perth"],"Australia/Sydney":["Australia/Lord_Howe"],"Asia/Tokyo":["Asia/Yakutsk"],"Asia/Dhaka":["Asia/Omsk"],"Asia/Baku":["Asia/Yerevan"],"Australia/Brisbane":["Asia/Vladivostok"],"Pacific/Noumea":["Asia/Vladivostok"],"Pacific/Majuro":["Asia/Kamchatka","Pacific/Fiji"],"Pacific/Tongatapu":["Pacific/Apia"],"Asia/Baghdad":["Europe/Minsk","Europe/Moscow"],"Asia/Karachi":["Asia/Yekaterinburg"],"Africa/Johannesburg":["Asia/Gaza","Africa/Cairo"]}},i=function(e){var a=-e.getTimezoneOffset();return null!==a?a:0},r=function(){var a=i(new Date(s.BASELINE_YEAR,0,2)),r=i(new Date(s.BASELINE_YEAR,5,2)),n=a-r;return 0>n?a+",1":n>0?r+",1,"+e:a+",0"},n=function(){if("undefined"!=typeof Intl&&"undefined"!=typeof Intl.DateTimeFormat){var e=Intl.DateTimeFormat();if("undefined"!=typeof e&&"undefined"!=typeof e.resolvedOptions)return e.resolvedOptions().timeZone}},o=function(e){for(var a=new Date(e,0,1,0,0,1,0).getTime(),s=new Date(e,12,31,23,59,59).getTime(),i=a,r=new Date(i).getTimezoneOffset(),n=null,o=null;s-864e5>i;){var A=new Date(i),u=A.getTimezoneOffset();u!==r&&(r>u&&(n=A),u>r&&(o=A),r=u),i+=864e5}return n&&o?{s:t(n).getTime(),e:t(o).getTime()}:!1},t=function l(e,a,i){"undefined"==typeof a&&(a=s.DAY,i=s.HOUR);for(var r=new Date(e.getTime()-a).getTime(),n=e.getTime()+a,o=new Date(r).getTimezoneOffset(),t=r,A=null;n-i>t;){var u=new Date(t),c=u.getTimezoneOffset();if(c!==o){A=u;break}t+=i}return a===s.DAY?l(A,s.HOUR,s.MINUTE):a===s.HOUR?l(A,s.MINUTE,s.SECOND):A},A=function(e,a,s,i){if("N/A"!==s)return s;if("Asia/Beirut"===a){if("Africa/Cairo"===i.name&&13983768e5===e[6].s&&14116788e5===e[6].e)return 0;if("Asia/Jerusalem"===i.name&&13959648e5===e[6].s&&14118588e5===e[6].e)return 0}else if("America/Santiago"===a){if("America/Asuncion"===i.name&&14124816e5===e[6].s&&1397358e6===e[6].e)return 0;if("America/Campo_Grande"===i.name&&14136912e5===e[6].s&&13925196e5===e[6].e)return 0}else if("America/Montevideo"===a){if("America/Sao_Paulo"===i.name&&14136876e5===e[6].s&&1392516e6===e[6].e)return 0}else if("Pacific/Auckland"===a&&"Pacific/Fiji"===i.name&&14142456e5===e[6].s&&13961016e5===e[6].e)return 0;return s},u=function(e,i){for(var r=function(a){for(var r=0,n=0;n<e.length;n++)if(a.rules[n]&&e[n]){if(!(e[n].s>=a.rules[n].s&&e[n].e<=a.rules[n].e)){r="N/A";break}if(r=0,r+=Math.abs(e[n].s-a.rules[n].s),r+=Math.abs(a.rules[n].e-e[n].e),r>s.MAX_SCORE){r="N/A";break}}return r=A(e,i,r,a)},n={},o=a.olson.dst_rules.zones,t=o.length,u=s.AMBIGUITIES[i],c=0;t>c;c++){var m=o[c],l=r(o[c]);"N/A"!==l&&(n[m.name]=l)}for(var f in n)if(n.hasOwnProperty(f)&&-1!=u.indexOf(f))return f;return i},c=function(e){var s=function(){for(var e=[],s=0;s<a.olson.dst_rules.years.length;s++){var i=o(a.olson.dst_rules.years[s]);e.push(i)}return e},i=function(e){for(var a=0;a<e.length;a++)if(e[a]!==!1)return!0;return!1},r=s(),n=i(r);return n?u(r,e):e},m=function(){var e=n();return e||(e=a.olson.timezones[r()],"undefined"!=typeof s.AMBIGUITIES[e]&&(e=c(e))),{name:function(){return e}}};return{determine:m}}();a.olson=a.olson||{},a.olson.timezones={"-720,0":"Etc/GMT+12","-660,0":"Pacific/Pago_Pago","-660,1,s":"Pacific/Apia","-600,1":"America/Adak","-600,0":"Pacific/Honolulu","-570,0":"Pacific/Marquesas","-540,0":"Pacific/Gambier","-540,1":"America/Anchorage","-480,1":"America/Los_Angeles","-480,0":"Pacific/Pitcairn","-420,0":"America/Phoenix","-420,1":"America/Denver","-360,0":"America/Guatemala","-360,1":"America/Chicago","-360,1,s":"Pacific/Easter","-300,0":"America/Bogota","-300,1":"America/New_York","-270,0":"America/Caracas","-240,1":"America/Halifax","-240,0":"America/Santo_Domingo","-240,1,s":"America/Santiago","-210,1":"America/St_Johns","-180,1":"America/Godthab","-180,0":"America/Argentina/Buenos_Aires","-180,1,s":"America/Montevideo","-120,0":"America/Noronha","-120,1":"America/Noronha","-60,1":"Atlantic/Azores","-60,0":"Atlantic/Cape_Verde","0,0":"UTC","0,1":"Europe/London","60,1":"Europe/Berlin","60,0":"Africa/Lagos","60,1,s":"Africa/Windhoek","120,1":"Asia/Beirut","120,0":"Africa/Johannesburg","180,0":"Asia/Baghdad","180,1":"Europe/Moscow","210,1":"Asia/Tehran","240,0":"Asia/Dubai","240,1":"Asia/Baku","270,0":"Asia/Kabul","300,1":"Asia/Yekaterinburg","300,0":"Asia/Karachi","330,0":"Asia/Kolkata","345,0":"Asia/Kathmandu","360,0":"Asia/Dhaka","360,1":"Asia/Omsk","390,0":"Asia/Rangoon","420,1":"Asia/Krasnoyarsk","420,0":"Asia/Jakarta","480,0":"Asia/Shanghai","480,1":"Asia/Irkutsk","525,0":"Australia/Eucla","525,1,s":"Australia/Eucla","540,1":"Asia/Yakutsk","540,0":"Asia/Tokyo","570,0":"Australia/Darwin","570,1,s":"Australia/Adelaide","600,0":"Australia/Brisbane","600,1":"Asia/Vladivostok","600,1,s":"Australia/Sydney","630,1,s":"Australia/Lord_Howe","660,1":"Asia/Kamchatka","660,0":"Pacific/Noumea","690,0":"Pacific/Norfolk","720,1,s":"Pacific/Auckland","720,0":"Pacific/Majuro","765,1,s":"Pacific/Chatham","780,0":"Pacific/Tongatapu","780,1,s":"Pacific/Apia","840,0":"Pacific/Kiritimati"},a.olson.dst_rules={years:[2008,2009,2010,2011,2012,2013,2014],zones:[{name:"Africa/Cairo",rules:[{e:12199572e5,s:12090744e5},{e:1250802e6,s:1240524e6},{e:12858804e5,s:12840696e5},!1,!1,!1,{e:14116788e5,s:1406844e6}]},{name:"America/Asuncion",rules:[{e:12050316e5,s:12243888e5},{e:12364812e5,s:12558384e5},{e:12709548e5,s:12860784e5},{e:13024044e5,s:1317528e6},{e:1333854e6,s:13495824e5},{e:1364094e6,s:1381032e6},{e:13955436e5,s:14124816e5}]},{name:"America/Campo_Grande",rules:[{e:12032172e5,s:12243888e5},{e:12346668e5,s:12558384e5},{e:12667212e5,s:1287288e6},{e:12981708e5,s:13187376e5},{e:13302252e5,s:1350792e6},{e:136107e7,s:13822416e5},{e:13925196e5,s:14136912e5}]},{name:"America/Goose_Bay",rules:[{e:122559486e4,s:120503526e4},{e:125704446e4,s:123648486e4},{e:128909886e4,s:126853926e4},{e:13205556e5,s:129998886e4},{e:13520052e5,s:13314456e5},{e:13834548e5,s:13628952e5},{e:14149044e5,s:13943448e5}]},{name:"America/Havana",rules:[{e:12249972e5,s:12056436e5},{e:12564468e5,s:12364884e5},{e:12885012e5,s:12685428e5},{e:13211604e5,s:13005972e5},{e:13520052e5,s:13332564e5},{e:13834548e5,s:13628916e5},{e:14149044e5,s:13943412e5}]},{name:"America/Mazatlan",rules:[{e:1225008e6,s:12074724e5},{e:12564576e5,s:1238922e6},{e:1288512e6,s:12703716e5},{e:13199616e5,s:13018212e5},{e:13514112e5,s:13332708e5},{e:13828608e5,s:13653252e5},{e:14143104e5,s:13967748e5}]},{name:"America/Mexico_City",rules:[{e:12250044e5,s:12074688e5},{e:1256454e6,s:12389184e5},{e:12885084e5,s:1270368e6},{e:1319958e6,s:13018176e5},{e:13514076e5,s:13332672e5},{e:13828572e5,s:13653216e5},{e:14143068e5,s:13967712e5}]},{name:"America/Miquelon",rules:[{e:12255984e5,s:12050388e5},{e:1257048e6,s:12364884e5},{e:12891024e5,s:12685428e5},{e:1320552e6,s:12999924e5},{e:13520016e5,s:1331442e6},{e:13834512e5,s:13628916e5},{e:14149008e5,s:13943412e5}]},{name:"America/Santa_Isabel",rules:[{e:12250116e5,s:1207476e6},{e:12564612e5,s:12389256e5},{e:12885156e5,s:12703752e5},{e:13199652e5,s:13018248e5},{e:13514148e5,s:13332744e5},{e:13828644e5,s:13653288e5},{e:1414314e6,s:13967784e5}]},{name:"America/Sao_Paulo",rules:[{e:12032136e5,s:12243852e5},{e:12346632e5,s:12558348e5},{e:12667176e5,s:12872844e5},{e:12981672e5,s:1318734e6},{e:13302216e5,s:13507884e5},{e:13610664e5,s:1382238e6},{e:1392516e6,s:14136876e5}]},{name:"Asia/Amman",rules:[{e:1225404e6,s:12066552e5},{e:12568536e5,s:12381048e5},{e:12883032e5,s:12695544e5},{e:13197528e5,s:13016088e5},!1,!1,{e:14147064e5,s:13959576e5}]},{name:"Asia/Damascus",rules:[{e:12254868e5,s:120726e7},{e:125685e7,s:12381048e5},{e:12882996e5,s:12701592e5},{e:13197492e5,s:13016088e5},{e:13511988e5,s:13330584e5},{e:13826484e5,s:1364508e6},{e:14147028e5,s:13959576e5}]},{name:"Asia/Dubai",rules:[!1,!1,!1,!1,!1,!1,!1]},{name:"Asia/Gaza",rules:[{e:12199572e5,s:12066552e5},{e:12520152e5,s:12381048e5},{e:1281474e6,s:126964086e4},{e:1312146e6,s:130160886e4},{e:13481784e5,s:13330584e5},{e:13802292e5,s:1364508e6},{e:14116788e5,s:13959576e5}]},{name:"Asia/Irkutsk",rules:[{e:12249576e5,s:12068136e5},{e:12564072e5,s:12382632e5},{e:12884616e5,s:12697128e5},!1,!1,!1,!1]},{name:"Asia/Jerusalem",rules:[{e:12231612e5,s:12066624e5},{e:1254006e6,s:1238112e6},{e:1284246e6,s:12695616e5},{e:131751e7,s:1301616e6},{e:13483548e5,s:13330656e5},{e:13828284e5,s:13645152e5},{e:1414278e6,s:13959648e5}]},{name:"Asia/Kamchatka",rules:[{e:12249432e5,s:12067992e5},{e:12563928e5,s:12382488e5},{e:12884508e5,s:12696984e5},!1,!1,!1,!1]},{name:"Asia/Krasnoyarsk",rules:[{e:12249612e5,s:12068172e5},{e:12564108e5,s:12382668e5},{e:12884652e5,s:12697164e5},!1,!1,!1,!1]},{name:"Asia/Omsk",rules:[{e:12249648e5,s:12068208e5},{e:12564144e5,s:12382704e5},{e:12884688e5,s:126972e7},!1,!1,!1,!1]},{name:"Asia/Vladivostok",rules:[{e:12249504e5,s:12068064e5},{e:12564e8,s:1238256e6},{e:12884544e5,s:12697056e5},!1,!1,!1,!1]},{name:"Asia/Yakutsk",rules:[{e:1224954e6,s:120681e7},{e:12564036e5,s:12382596e5},{e:1288458e6,s:12697092e5},!1,!1,!1,!1]},{name:"Asia/Yekaterinburg",rules:[{e:12249684e5,s:12068244e5},{e:1256418e6,s:1238274e6},{e:12884724e5,s:12697236e5},!1,!1,!1,!1]},{name:"Asia/Yerevan",rules:[{e:1224972e6,s:1206828e6},{e:12564216e5,s:12382776e5},{e:1288476e6,s:12697272e5},{e:13199256e5,s:13011768e5},!1,!1,!1]},{name:"Australia/Lord_Howe",rules:[{e:12074076e5,s:12231342e5},{e:12388572e5,s:12545838e5},{e:12703068e5,s:12860334e5},{e:13017564e5,s:1317483e6},{e:1333206e6,s:13495374e5},{e:13652604e5,s:1380987e6},{e:139671e7,s:14124366e5}]},{name:"Australia/Perth",rules:[{e:12068136e5,s:12249576e5},!1,!1,!1,!1,!1,!1]},{name:"Europe/Helsinki",rules:[{e:12249828e5,s:12068388e5},{e:12564324e5,s:12382884e5},{e:12884868e5,s:1269738e6},{e:13199364e5,s:13011876e5},{e:1351386e6,s:13326372e5},{e:13828356e5,s:13646916e5},{e:14142852e5,s:13961412e5}]},{name:"Europe/Minsk",rules:[{e:12249792e5,s:12068352e5},{e:12564288e5,s:12382848e5},{e:12884832e5,s:12697344e5},!1,!1,!1,!1]},{name:"Europe/Moscow",rules:[{e:12249756e5,s:12068316e5},{e:12564252e5,s:12382812e5},{e:12884796e5,s:12697308e5},!1,!1,!1,!1]},{name:"Pacific/Apia",rules:[!1,!1,!1,{e:13017528e5,s:13168728e5},{e:13332024e5,s:13489272e5},{e:13652568e5,s:13803768e5},{e:13967064e5,s:14118264e5}]},{name:"Pacific/Fiji",rules:[!1,!1,{e:12696984e5,s:12878424e5},{e:13271544e5,s:1319292e6},{e:1358604e6,s:13507416e5},{e:139005e7,s:1382796e6},{e:14215032e5,s:14148504e5}]}]},"undefined"!=typeof exports?exports.jstz=a:e.jstz=a}(this);
+
+// Intercom.io
+(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/fyvopb4p';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+
+// Google Analytics 
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-57627608-1', 'auto');
+ga('send', 'pageview');
+
+// Add localstorage Modernizr test
+Modernizr.addTest('localstorage', function() {
+    var mod = 'modernizr';
+    try {
+        localStorage.setItem(mod, mod);
+        localStorage.removeItem(mod);
+        return true;
+    } catch (e) {
+        return false;
+    }
+});
+
+// Identify signed up user to Intercom
+if (Modernizr.localstorage) {
+    var timekitUserId = localStorage.getItem('timekit_user_id');
+    if (timekitUserId) {
+        window.Intercom('boot', {
+            app_id: "fyvopb4p",
+            user_id: timekitUserId
+        });
+    } else {
+        window.Intercom('boot', {
+            app_id: "fyvopb4p"
+        });
+    }
+} else {
+    window.Intercom('boot', {
+        app_id: "fyvopb4p"
+    });
+}
+
+// Code highlighting
+jQuery(document).ready(function($) {
+    hljs.initHighlightingOnLoad();
+});
+
+</script><script src="../cdn.rawgit.com/timekit-io/js-sdk/v0.0.7/dist/timekit.min.js"></script>
+<script type="text/javascript">
+// Track with Analytics
+ga('send', 'event', 'page', 'load', 'signup');
+
+// Get Started forms
+var newUser = {};
+var newApp = {};
+
+// Create new user
+jQuery('#gsform-user-form').submit(function(e) {
+  e.preventDefault();
+
+  newUser.name = jQuery('#gsform-user-name').val();
+  newUser.firstName = newUser.name.split(' ')[0];
+  newUser.lastName = newUser.name.split(' ')[1];
+  newUser.email = jQuery('#gsform-user-email').val();
+  newUser.password = jQuery('#gsform-user-password').val();
+  newUser.timezone = jstz.determine().name();
+
+  timekit.configure({
+    app: 'sign-up'
+  });
+
+  timekit.createUser(
+    newUser.firstName,
+    newUser.lastName,
+    newUser.email,
+    newUser.password,
+    newUser.timezone
+  ).then(function(result) {
+    newUser.apiToken = result.data.data.api_token;
+    newUser.id = result.data.data.id;
+    jQuery('#gsform-name-result-email').text(newUser.email);
+    jQuery('#gsform-name-result-token').text(newUser.apiToken);
+    jQuery('#gsform-app').show();
+    jQuery('#gsform-user .w-form-done').show();
+    jQuery('#gsform-user #gsform-user-form').hide();
+    jQuery('#gsform-user .w-form-fail').hide();
+    
+    ga('send', 'event', 'form', 'submit', 'user creation');
+    
+    window.Intercom('update', {
+        app_id: "fyvopb4p",
+        name: newUser.name,
+        email: newUser.email,
+        timezone: newUser.timezone,
+        user_id: newUser.id,
+        timekit_api_token: newUser.apiToken
+    });
+    
+    if (Modernizr.localstorage) {
+        localStorage.setItem('timekit_user_id', newUser.id);
+    }
+
+  }).catch(function(result){
+    console.log('An error happened creating new user!');
+    console.log(result);
+    jQuery('#gsform-user .w-form-fail').show();
+    if (result.data.error.message) {
+        jQuery('#gsform-user-error').text(result.data.error.message);   
+    }
+  });
+
+});
+
+// Login / create links
+jQuery('#gsform-user-loginlink').click(function(e) {
+	jQuery('#gsform-user').hide();
+ 	jQuery('#gsform-login').show();
+});
+jQuery('#gsform-login-createlink').click(function(e) {
+	jQuery('#gsform-login').hide();
+ 	jQuery('#gsform-user').show();
+});
+
+// Login with existing user
+jQuery('#gsform-login').hide();
+jQuery('#gsform-login-form').submit(function(e) {
+  e.preventDefault();
+
+  newUser.email = jQuery('#gsform-login-email').val();
+  newUser.password = jQuery('#gsform-login-password').val();
+
+  timekit.configure({
+    app: 'sign-up'
+  });
+
+  timekit.auth(
+    newUser.email,
+    newUser.password
+  ).then(function(result) {
+    newUser.apiToken = result.data.data.api_token;
+    newUser.id = result.data.data.id;
+    newUser.name = result.data.data.name;
+    newUser.firstName = result.data.data.first_name;
+    newUser.lastName = result.data.data.last_name;
+    newUser.timezone = result.data.data.timezone;
+    jQuery('#gsform-login-result-email').text(newUser.email);
+    jQuery('#gsform-login-result-token').text(newUser.apiToken);
+    jQuery('#gsform-app').show();
+    jQuery('#gsform-login .w-form-done').show();
+    jQuery('#gsform-login #gsform-login-form').hide();
+    jQuery('#gsform-login .w-form-fail').hide();
+    
+    ga('send', 'event', 'form', 'submit', 'user login');
+    
+    window.Intercom('update', {
+        app_id: "fyvopb4p",
+        name: newUser.name,
+        email: newUser.email,
+        timezone: newUser.timezone,
+        user_id: newUser.id,
+        timekit_api_token: newUser.apiToken
+    });
+    
+    if (Modernizr.localstorage) {
+        localStorage.setItem('timekit_user_id', newUser.id);
+    }
+
+  }).catch(function(result){
+    console.log('An error happened logging in user!');
+    console.log(result);
+    jQuery('#gsform-login .w-form-fail').show();
+    if (result.data.error.message) {
+        jQuery('#gsform-login-error').text(result.data.error.message);   
+    }
+  });
+
+});
+
+// Create new app
+jQuery('#gsform-app-form').submit(function(e) {
+  e.preventDefault();
+
+  newApp.name = jQuery('#gsform-app-name').val();
+
+  timekit.setUser(newUser.email, newUser.apiToken);
+
+  timekit.createApp(
+    newApp.name,
+    {
+        contact_name: newUser.name,
+        contact_email: newUser.email
+    }
+  ).then(function(result) {
+    newApp.name = result.data.data.settings.name;
+    newApp.slug = result.data.data.slug;
+    jQuery('#gsform-app-result-slug').text(newApp.slug);
+    jQuery('#gsform-app .w-form-done').show();
+    jQuery('#gsform-app #gsform-app-form').hide();
+    jQuery('#gsform-app .w-form-fail').hide();
+    
+    ga('send', 'event', 'form', 'submit', 'app creation');
+    
+    window.Intercom('update', {
+        timekit_app_name: newApp.name,
+        timekit_app_slug: newApp.slug
+    });
+
+  }).catch(function(result){
+    console.log('An error happened creating new app!');
+    console.log(result);
+    jQuery('#gsform-app .w-form-fail').show();
+    if (result.data.error.message) {
+        jQuery('#gsform-app-error').text(result.data.error.message);   
+    }
+  });
+
+});
+</script>
+</body>
+<!-- Mirrored from timekit.io/get-started by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Nov 2015 04:07:14 GMT -->
+</html>
